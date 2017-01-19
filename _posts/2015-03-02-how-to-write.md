@@ -18,7 +18,9 @@ description: "二级vb复习"
 　　正确答案：B
 
 　　答案解析：软件测试主要包括单元测试、集成测试、确认测试和系统测试。
-<HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="80%" color=#987cb9 SIZE=3>
+  
+<hr>
+
 　　2). 现有语句： y＝IIf(x>0， x Mod 3， 0)设x＝10，则y的值是( ).
 
 　　A.0
@@ -32,7 +34,9 @@ description: "二级vb复习"
 　　正确答案：B
 
 　　答案解析：IIF是条件函数，它的语法格式是：IIf(，，)，本题中，x＝10时，条件表达式x>0的值为True，执行x Mod 3 即10 Mod 3 结果为1。故选B。
-<HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="80%" color=#987cb9 SIZE=3>
+
+<hr>
+
 　　3). 以下关于多重窗体程序的叙述中，错误的是( ).
 
 　　A.对于多重窗体程序，需要单独保存每个窗体
