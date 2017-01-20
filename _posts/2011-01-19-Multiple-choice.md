@@ -617,3 +617,661 @@ description: "二级vb复习"
 　　正确答案：D
 
 　　答案解析：软件需求规格说明书是需求分析阶段的最后成果，是软件开发的重要文档之一。软件需求规格说明书有以下几个方面的作用。①便于用户、开发人员进行理解和交流，B正确；②反映出用户问题的结构，可以作为软件开发工作的基础和依据，C正确；③作为确认测试和验收的依据，A正确。
+  
+ <hr>
+  
+　　 40).下列说法有错误的是
+   
+     A.默认情况下，属性Visible的值为False
+    
+　　 B. 如果设置控件的Visible属性为False，则运行时控件会隐藏
+   
+　　 C. Visible的值可设为True或者False
+   
+　　 D. 设置Visible属性同设置Enabled属性的功能是相同的，都是使控件处于失效状态
+   
+　　 参考答案:D
+  
+ <hr>
+ 
+　　41).下列程序的执行结果为
+  
+　　Private Sub Command1_Click()
+  
+　　Dim FirStr As String
+  
+　　FirSt="abcdef"
+  
+　　Print Pat(FirStr.
+  
+　　End Sub
+  
+　　Private Function Pat(xStr As String.As String
+  
+　　Dim tempStr As String, strLen As Integer
+  
+　　tempStr=""
+  
+　　strLen=Len(xStr.
+  
+　　i=1
+  
+　　Do While i<=Len(xStr.-3
+  
+　　tempStr=tempStr+Mid(xStr, i, 1)+Mid(xStr, strLen -i+1, 1)
+  
+　　i=i+1
+  
+　　Loop
+  
+　　Pat=tempStr
+  
+　　End Function 
+    A. abcdef
+  
+　　B. afbecd
+  
+　　C. fedcba
+  
+　　D. defabc
+  
+　　参考答案:B
+  
+ <hr>
+ 
+　　42).下列叙述中，不属于软件需求规格说明书的作用的是(　　)
+  
+    A. 便于用户、开发人员进行理解和交流
+    
+　　B. 反映出用户问题的结构，可以作为软件开发工作的基础和依据
+  
+　　C. 作为确认测试和验收的依据
+  
+　　D. 便于开发人员进行需求分析
+  
+　　参考答案:D
+　　
+ <hr>
+ 
+　　43).在Visual FoxPro中，用于建立或修改过程文件的命令为(　　)
+  
+    A. MODIFY<文件名>
+    
+　　B. MODIFY FILE<文件名>
+  
+　　C. MODIFY PROCEDURE<文件名>
+  
+　　D. 以上B、C都正确
+  
+　　参考答案:B
+  
+ <hr>
+ 
+　　44).执行命令
+  
+　　.STORE″3.1416″TO TEST
+  
+　　.?TYPE(″TEST″)
+  
+　　其结果为(　　)
+  
+    A. D
+    
+　　B. L
+  
+　　C. C
+  
+　　D. N
+  
+　　参考答案:C
+　　
+ <hr>
+ 
+　　45).数据结构作为计算机的一门学科，主要研究数据的逻辑结构、对各种数据结构进行的运算，以及(　　) 
+  
+    A. 数据的存储结构
+  
+　　B. 计算方法
+  
+　　C. 数据映像
+  
+　　D. 逻辑存储
+  
+　　参考答案:A
+  
+ <hr>
+ 
+　　46).下列有关数据库的描述，正确的是 
+  
+    A. 数据处理是将信息转化为数据的过程
+    
+　　B. 数据的物理独立性是指当数据的逻辑结构改变时，数据的存储结构不变
+  
+　　C. 关系中的每一列称为元组，一个元组就是一个字段
+  
+　　D. 如果一个关系中的属性或属性组并非该关系的关键字，但它是另一个关系的关键字，则称其为本关系的外关键字
+  
+　　参考答案:D
+  
+ <hr>
+ 
+　　47).一个Visual FoxPro过程化程序，从功能上可将其分为(　　)
+  
+    A. 程序说明部分、数据处理部分、控制返回部分
+    
+　　B. 环境保存与设置部分、功能实现部分、环境恢复部分
+  
+　　C. 程序说明部分、数据处理部分、环境恢复部分
+  
+　　D. 数据处理部分、控制返回部分、功能实现部分
+  
+　　参考答案:A
+  
+ <hr>
+ 
+　　48).单击命令按钮时，下列程序的执行结果为
+  
+　　Private Sub Command1_Click()
+  
+　　Dim x As Integer, y As Integer
+  
+　　x=12:y=32
+  
+　　Call Proc(x,y.
+  
+　　Print x; y
+  
+　　End Sub
+  
+　　Public Sub Proc(n As Integer, ByVal m As Integer.
+  
+　　n=n Mod 10
+  
+　　m=m Mod 10
+  
+　　End Sub
+    A. 1232
+  
+　　B. 232
+  
+　　C. 23
+  
+　　D. 123
+  
+　　参考答案:B
+  
+ <hr>
+ 
+　　49).决定微调控件最大值的属性是(　　)
+    
+    A. KeyboardHighValue
+    
+　　B. Value
+  
+　　C. KeyboardLowValue
+  
+　　D. Interval
+  
+　　参考答案:A
+　  
+ <hr>
+ 
+　　50).在“报表设计器”中，可以使用控件是(　　)
+  
+    A. 标签、文本框和列表框
+    
+　　B. 标签、域控件和列表框
+  
+　　C. 标签、域控件和线条
+  
+　　D. 布局和数据源
+  
+　　参考答案:C
+  
+ <hr>
+ 
+　　51).下列程序段执行结果为
+  
+　　x=5
+  
+　　y=-6
+  
+　　If Not x>0 Then x=y-3 Else y=x+3
+  
+　　Print x-y; y-x
+  
+    A. -3 3
+  
+　　B. 5 -9
+  
+　　C. 3 -3
+  
+　　D. -6 5
+  
+　　参考答案:A
+  
+ <hr>
+ 
+　　52).以下不是查询结果去向的是(　　)
+  
+    A. 浏览
+    
+　　B. 报表
+  
+　　C. 表单
+  
+　　D. 表
+  
+　　参考答案:C
+  
+ <hr>
+ 
+　　53).数据库、数据库系统和数据库管理系统之间的关系是(　　)
+    
+    A. 数据库包括数据库系统和数据库管理系统
+    
+　　B. 数据库系统包括数据库和数据库管理系统
+  
+　　C. 数据库管理系统包括数据库和数据库系统
+  
+　　D. 3者没有明显的包含关系
+  
+　　参考答案:B
+  
+ <hr>
+ 
+　　54).下列有关数据库的描述，正确的是
+    
+    A. 数据库是一个DBF文件
+    
+　　B. 数据库是一个关系
+  
+　　C. 数据库是一个结构化的数据集合
+  
+　　D. 数据库是一组文件
+  
+　　参考答案:C
+  
+ <hr>
+ 
+　　55).VisualFoxPro出现的各类文件扩展名(　　)
+    
+    A. 由系统默认
+    
+　　B. 由用户使用SET命令预先定义
+  
+　　C. 必须用户定义
+  
+　　D. 由系统默认或由用户定义
+  
+　　参考答案:B
+  
+ <hr>
+ 
+　　56).只有将组合框的Style属性设置为何值时，才能触发DblClick事件? 
+    
+    A. 0
+    
+　　B. 1
+  
+　　C. 2
+  
+　　D. 3
+  
+　　参考答案:B
+  
+ <hr>
+ 
+　　57).链表不具有的特点是
+    
+    A. 不必事先估计存储空间
+    
+　　B. 可随机访问任一元素
+  
+　　C. 插入删除不需要移动元素
+  
+　　D. 所需空间与线性表长度成正?/P>
+  
+　　参考答案:B
+  
+ <hr>
+ 
+　　58).在Visual Basic中，要将一个窗体加载到内存进行预处理但不显示，应使用的语句是
+    
+    A. Load
+    
+　　B. Show
+  
+　　C. Hide
+  
+　　D. Unload
+  
+　　参考答案:A
+  
+ <hr>
+ 
+　　59).在Visual FoxPro数据库中的常量的类型种类是(　　)
+    
+    A. 4
+    
+　　B. 5
+  
+　　C. 6
+  
+　　D. 3
+  
+　　参考答案:C
+  
+ <hr>
+ 
+　　60).SUBSTR(″ABCDEF″，3，2)结果是(　　)
+    
+    A. AB
+    
+　　B. CD
+  
+　　C. FE
+  
+　　D. CB
+  
+　　参考答案:B
+  
+ <hr>
+ 
+　　61).数据库的故障恢复一般是由(　　)
+    
+    A. 数据流图完成的
+    
+　　B. 数据字典完成的
+  
+　　C. DBA完成的
+  
+　　D. PAD图完成的
+  
+　　参考答案:C
+  
+ <hr>
+ 
+　　62).不能脱离控件(包括客体)而独立存在的过程是
+    
+    A. 事件过程
+    
+　　B. 通用过程
+  
+　　C. Sub过程
+  
+　　D. 函数过程
+  
+　　参考答案:A
+  
+ <hr>
+ 
+　　63).当前目录下有两个表文件，MEN.DBF和WOM.DBF，分别记录男生成绩档案和女生成绩档案，但男生中部分物理缺考，若要统计物理成绩而将所有参加物理考试的档案合并，正确操作是(　　)
+    
+    A. USE WOM IN 0
+    
+　　B. USE WOM IN 0
+  
+　　USE MEN IN 0 APPEND FROM MEN FOR 性别=′男′
+  
+　　APPEND FROM WOM FOR 性别=′男′
+  
+　　C. COPY FILES TO WOM FOR 性别=′男′
+  
+　　D. USE MEN
+  
+　　COPY TO WOM FOR 性别=′男′
+  
+　　参考答案:B
+  
+ <hr>
+ 
+　　64).下列叙述中正确的是(　　)
+    
+    A. 线性表是线性结构
+    
+　　B. 栈与队列是非线性结构
+  
+　　C. 线性链表是非线性结构
+  
+　　D. 二叉树是线性结构
+  
+　　参考答案:A
+  
+ <hr>
+ 
+　　65).不属于循环结构的语句是(　　)
+    A. SCAN...ENDSCAN
+    
+　　B. IF...ENDIF
+  
+　　C. FOR...ENDFOR
+  
+　　D. DO While...ENDDO
+  
+　　参考答案:B
+  
+ <hr>
+ 
+　　66).以下属于Visual Basic合法的数组元素是
+    
+    A. x8
+    
+　　B. x[8]
+  
+　　C. s(0.
+  
+　　D. v[8]
+  
+　　参考答案:C
+  
+ <hr>
+ 
+　　67).在Visual FoxPro系统中，内存变量只定义了数组MK(12)，它具有12个下标变量。用LIST MEMORY LIKE MK*命令显示已定义的内存变量数是(　　)
+    
+    A. 12
+    
+　　B. 1
+  
+　　C. 0
+  
+　　D. 有时是1，有时是12
+  
+　　参考答案:B
+  
+ <hr>
+ 
+　　68).依据PEO.DBF中的字段名NAME制作一个单一关键字索引文件NAME1.IDX，下列程序段所缺的内容是(　　)
+  
+　　CLOSE ALL
+  
+　　USE PEO
+  
+　　LIST
+　　_____
+  
+　　LIST
+  
+    A. USE INDEX ON NAME FOR NAME1
+    
+　　B. USE INDEX ON NAME1
+  
+　　C. INDEX ON NAME WITH NAME1
+  
+　　D. INDEX ON NAME TO NAME1
+  
+　　参考答案:D
+　  
+ <hr>
+ 
+　　69).在“报表设计器”中，任何时候都可以使用“预览”功能查看报表的打印效果，以下4种操作中不能实现预览功能的是(　　)
+    
+    A. 直接单击常用工具栏上的“打印预览”按钮
+    
+　　B. 在“打表设计器”中单击鼠标右键，从弹出的快捷菜单中选择“预览”
+  
+　　C. 打开“显示”菜单，选择“预览”选项
+  
+　　D. 打开“报表”菜单，选择“运行报表”选项
+  
+　　参考答案:D
+  
+ <hr>
+ 
+　　70).在Visual FoxPro报表设计中，“学生成绩表”的报表布局类型是()
+    
+    A. 列表
+    
+　　B. 行表
+  
+　　C. 标签
+  
+　　D. 多列表
+  
+　　参考答案:A
+　  
+ <hr>
+ 
+　　71).以下叙述中，错误的是(　　)
+    
+    A. 工作区的系统别名和用户定义的数据表别名可以交替使用
+    
+　　B. 在某个工作区打开的数据表原名和工作区别名可以交替使用
+  
+　　C. 在某个工作区打开的数据表原名和数据表别名可以交替使用
+  
+　　D. 在选择工作区时，可以用工作区号、系统别名或打开的数据表别名
+  
+　　参考答案:C
+  
+ <hr>
+ 
+　　72).软件工程的理论和技术性研究的内容主要包括软件开发技术和(　　)
+    
+    A. 消除软件危机
+    
+　　B. 软件工程管理
+  
+　　C. 程序设计自动化
+  
+　　D. 实现软件可重用
+  
+　　参考答案:B
+  
+ <hr>
+ 
+　　73).编写如下两个事件过程：
+  
+　　Private Sub Form_KeyDown (KeyCode As Integer, Shift As Integer)
+  
+　　Print Chr(KeyCode.
+  
+　　End Sub
+  
+　　Private Sub Form_KeyPress(KeyAscii As Integer)
+  
+　　Print Chr(KeyAscii)
+  
+　　End Sub
+  
+　　在一般情况下(即不按住Shift键和锁定大写键时)运行程序，如果按"A"键，则程序输出的结果是
+   
+    A. A a
+    
+　　B. a A
+  
+　　C. A A
+  
+　　D. a a
+  
+　　参考答案:C
+  
+ <hr>
+ 
+　　74).顺序执行下面两条命令：
+  
+　　N=123456.789
+  
+　　@ 10,6 SAY N PICTURE ″$ $ 999,999.9″
+  
+　　屏幕显示的结果是(　　)
+  
+    A. $ 123,456.7
+    
+　　B. $$ 123,456.7
+  
+　　C. $ 123,456.8
+  
+　　D. $$ 123,456.8
+  
+　　参考答案:A
+　  
+ <hr>
+ 
+　　75).在命令文件与被调用过程之间的参数传递要求(　　)
+    
+    A. 参数名相同
+    
+　　B. 参数个数相同
+  
+　　C. 参数类型相同
+  
+　　D. B与C
+  
+　　参考答案:B
+  
+ <hr>
+ 
+　　76).单个用户使用的数据视图的描述称为()
+    
+    A. 外模式
+    
+　　B. 概念模式
+  
+　　C. 内模式
+  
+　　D. 存储模式
+  
+　　参考答案:A
+　  
+ <hr>
+ 
+　　77).下列各控件不包含滚动条的控件是
+  
+    A. ListBox
+    
+　　B. ComboBox
+  
+　　C. TextBox
+  
+　　D. LabelBox
+  
+　　参考答案:D
+  
+ <hr>
+ 
+　　78).Visual FoxPro中，执行了SET DATE AMERICAN后，不能显示4位年份的命令是(　　)
+    
+    A. ?YEAR(DATE())
+    
+　　B. ?LEFT(DTOC(DATE())，4)
+  
+　　C. ?LEFT(DTOC(DATE()，1)，4)
+  
+　　D. ?SUBSTR(DTOC(DATE()，1)，1，4)
+  
+　　参考答案:B
+　  
+ <hr>
+ 
+　　79).关于创建工具栏的说法，正确的是(　　)
+    
+    A. 只能定制Visual FoxPro系统工具栏，不能自定义工具栏
+    
+　　B. 不能定制Visual FoxPro系统工具栏，但可以自定义工具栏
+  
+　　C. 既能定制Visual FoxPro系统工具栏，也可自定义工具栏
+  
+　　D. 只能使用系统工具栏，不能自定义工具栏
+  
+　　参考答案:C
