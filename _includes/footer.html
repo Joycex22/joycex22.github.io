@@ -93,7 +93,12 @@
     </div>
 </footer>
 
-
+<script>
+vd = document.getElementByName("ted");
+if (vd != null) {
+    vd.style.height = vd.scrollWidth*0.8+"px";
+}
+</script>
 
 <!-- jQuery -->
 <script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>
